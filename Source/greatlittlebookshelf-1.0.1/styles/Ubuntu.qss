@@ -1,0 +1,410 @@
+#top_widget
+{
+background: transparent; 
+}
+QMenu
+{
+border: 1px solid rgb(221,72,20);
+border-radius: 6px;
+background: #333333;
+}
+QMenu::item
+{
+background: transparent; 
+color: rgba(255, 255, 255,190);
+min-height: 50px;
+min-width: 250px;
+}
+QMenu::item:selected
+{
+background: #DD4814;
+color: rgb(70,70,70);
+}
+
+#pdfOriginalSize {
+color: rgba(255,255,255,180);
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border-top:1px solid rgba(255,255,255,60);
+border-bottom:1px solid rgba(255,255,255,60);
+border-left:1px solid rgba(255,255,255,60);
+border-right:0px;
+height:20;
+background:rgba(255,255,255,30);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfOriginalSize:hover
+{
+background:#DD4814;
+}
+#pdfOriginalSize:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfZoomIn {
+color: rgba(255,255,255,180);
+border-top:1px solid rgba(255,255,255,60);
+border-bottom:1px solid rgba(255,255,255,60);
+border-right:0px;
+border-left:0px;
+height:20;
+background:rgba(255,255,255,30);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfZoomIn:hover
+{
+background:#DD4814;
+}
+#pdfZoomIn:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfZoomOut {
+color: rgba(255,255,255,180);
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top:1px solid rgba(255,255,255,60);
+border-bottom:1px solid rgba(255,255,255,60);
+border-right:1px solid rgba(255,255,255,60);
+border-left:0px;
+height:20;
+background:rgba(255,255,255,30);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfZoomOut:hover
+{
+background:#DD4814;
+}
+#pdfZoomOut:pressed
+{
+background:rgba(0,0,0,110);
+}
+
+
+#pdfFirst {
+color: rgba(255,255,255,180);
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border-top:1px solid rgba(255,255,255,60);
+border-bottom:1px solid rgba(255,255,255,60);
+border-left:1px solid rgba(255,255,255,60);
+border-right:0px;
+background:rgba(255,255,255,30);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfFirst:hover
+{
+background:#DD4814;
+}
+#pdfFirst:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfBack {
+color: rgba(255,255,255,180);
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top:1px solid rgba(255,255,255,60);
+border-bottom:1px solid rgba(255,255,255,60);
+border-right:1px solid rgba(255,255,255,60);
+border-left:0px;
+background:rgba(255,255,255,30);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+min-width: 80px;
+}
+#pdfBack:hover
+{
+background:#DD4814;
+}
+#pdfBack:pressed
+{
+background:rgba(0,0,0,110);
+}
+
+QSpinBox 
+{
+min-height:25;
+background:transparent;
+border:0px solid rgba(255,255,255,60);
+border-radius:10px;
+color: rgb(255,255,255,160);
+alignment: center;
+margin-left: 15px;
+margin-right: 15px;
+}
+QSpinBox:hover
+{
+color: rgb(255,255,255,255);
+}
+
+#pdfNext {
+color: rgba(255,255,255,180);
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border-top:1px solid rgba(255,255,255,60);
+border-bottom:1px solid rgba(255,255,255,60);
+border-left:1px solid rgba(255,255,255,60);
+border-right:0px;
+background:rgba(255,255,255,30);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+min-width: 80px;
+}
+#pdfNext:hover
+{
+background:#DD4814;
+}
+#pdfNext:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfLast {
+color: rgba(255,255,255,180);
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top:1px solid rgba(255,255,255,60);
+border-bottom:1px solid rgba(255,255,255,60);
+border-right:1px solid rgba(255,255,255,60);
+border-left:0px;
+background:rgba(255,255,255,30);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfLast:hover
+{
+background:#DD4814;
+}
+#pdfLast:pressed
+{
+background:rgba(0,0,0,110);
+}
+
+#main_widget
+{
+background-color: #333333;
+}
+#Bar 
+{
+background: transparent;
+}
+#toolBar
+{
+padding:6px;
+background: transparent;
+spacing: 0px;
+}
+#toolBar_pdf
+{
+background: transparent;
+}
+
+#BackButton {
+color: rgba(255,255,255,180);
+border-top-left-radius: 9px;
+border-bottom-left-radius: 9px;
+border-top:2px solid #DD4814;
+border-bottom:2px solid #DD4814;
+border-left:2px solid #DD4814;
+border-right:2px solid #DD4814;
+height:20;
+background:transparent;
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+margin-left: 5px;
+min-width:150px;
+}
+#BackButton:hover {
+background:#DD4814;
+}
+#BackButton:pressed
+{
+background:#AEA79F;
+}
+#BackButton:disabled {
+color: rgba(255,255,255,30);
+border-top:2px solid transparent;
+border-bottom:2px solid transparent;
+border-left:2px solid transparent;
+border-right:0px;
+background:transparent;
+}
+#BackToThisCatalogButton {
+color: rgba(255,255,255,180);
+border-top-right-radius: 9px;
+border-bottom-right-radius: 9px;
+border-top:2px solid #DD4814;
+border-bottom:2px solid #DD4814;
+border-right:2px solid #DD4814;
+border-left: 2px solid #DD4814;
+height:20;
+background:transparent;
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+min-width:150px;
+}
+#BackToThisCatalogButton:hover {
+background:#DD4814;
+}
+#BackToThisCatalogButton:pressed
+{
+background:#AEA79F;
+}
+#BackToThisCatalogButton:disabled {
+color: rgba(255,255,255,30);
+border-top:2px solid transparent;
+border-bottom:2px solid transparent;
+border-right:2px solid transparent;
+border-left:0px;
+background:transparent;
+}
+#FavoritePushButton{
+color: rgba(255,255,255,180);
+border:2px solid #DD4814;
+border-radius: 9px;
+height:20;
+background:transparent;
+padding-left: 12px;
+padding-right: 12px;
+spacing: 5px;
+min-width:120px;
+margin-right: 5px;
+}
+#FavoritePushButton:hover {
+background:#DD4814;
+}
+#FavoritePushButton:disabled {
+color: rgba(255,255,255,30);
+border:2px solid transparent;
+background:transparent;
+}
+#FavoritePushButton:pressed {
+background:#AEA79F;
+}
+
+
+
+#progress_widget
+{
+background:transparent;
+height:20px;
+}
+QProgressBar 
+{
+background: transparent;
+border: 1px solid rgba(255,255,255,60);
+border-radius: 3px;
+height:10px;
+color: rgba(255,255,255,60);
+}
+QProgressBar::chunk 
+{
+background: rgba(255,255,255,30);
+width: 20px;
+}
+#LabelPath
+{
+background: transparent;
+color: #DD4814;
+}
+
+#CatalogWidget {
+margin-top:20px;
+background-image: url('/opt/extras.ubuntu.com/glbs/styles/images/empty_simplegray_shelf.png');
+background-repeat: repeat-xy;
+}
+#CatalogWidget::item {
+color: white;
+border: 2px solid rgb(221,72,20);
+border-radius: 8px;
+margin-bottom: 0px;
+margin-top: 8px;
+padding-top: 12px;
+padding-left: 12px;
+padding-right: 12px;
+padding-bottom: 6px;
+background: transparent;
+}
+#CatalogWidget::item:hover {
+border: 2px solid #333333;
+background: rgb(221,72,20);
+}
+#CatalogWidget::item:selected {
+border-left: 1px solid rgba(255,255,255,200);
+border-right: 1px solid rgba(255,255,255,200);
+border-top: 1px solid rgba(255,255,255,40);
+border-bottom: 1px solid rgba(255,255,255,40);
+background: rgb(180,180,180);
+}
+
+
+
+QScrollBar:vertical { 
+background:transparent;
+width:14px;
+margin: 20px 0px 20px 0px;
+}
+QScrollBar::handle:vertical {
+border: 1px solid rgba(255,255,255,60);
+border-radius:7px;
+background: rgba(255,255,255,30);
+height:50px;
+}
+QScrollBar::add-line:vertical {
+border: 1px solid rgba(255,255,255,60);
+background: rgba(255,255,255,30);
+border-radius:7px;
+height: 12px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+border: 1px solid rgba(255,255,255,60);
+background: rgba(255,255,255,30);
+border-radius:7px;
+height: 12px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+QScrollBar:horizontal { 
+background:transparent;
+height:20px;
+margin: 3px 20px 3px 20px;
+}
+QScrollBar::handle:horizontal {
+border: 1px solid rgba(255,255,255,60);
+border-radius:7px;
+background: rgba(255,255,255,30);
+min-width:20px;
+}
+QScrollBar::add-line:horizontal {
+border: 1px solid rgba(255,255,255,60);
+background: rgba(255,255,255,30);
+border-radius:7px;
+width: 12px;
+height:12px;
+subcontrol-position: right;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+border: 1px solid rgba(255,255,255,60);
+background: rgba(255,255,255,30);
+border-radius:7px;
+width: 12px;
+height:12px;
+subcontrol-position: left;
+subcontrol-origin: margin;
+}

@@ -1,0 +1,418 @@
+#top_widget
+{
+background: transparent; 
+}
+QMenu
+{
+border: 1px solid;
+border-radius: 1px;
+border-color: rgba(176,196,222,220);
+background:rgba(176,196,222, 130); 
+margin: 2px;
+}
+QMenu::item
+{
+background: transparent; 
+color: rgba(255, 255, 255,190);
+min-height:50px;
+}
+QMenu::item:selected
+{
+background: transparent;
+color: rgba(255, 255, 255,255);
+background:rgba(176,196,222,180); 
+}
+#pdfOriginalSize {
+color: rgba(255,255,255,180);
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-left:1px solid rgba(176,196,222,50);
+border-right:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfOriginalSize:hover
+{
+background:rgba(176,196,222,100);
+}
+#pdfOriginalSize:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfZoomIn {
+color: rgba(255,255,255,180);
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-right:0px;
+border-left:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfZoomIn:hover
+{
+background:rgba(176,196,222,100);
+}
+#pdfZoomIn:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfZoomOut {
+color: rgba(255,255,255,180);
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-right:1px solid rgba(176,196,222,50);
+border-left:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfZoomOut:hover
+{
+background:rgba(176,196,222,100);
+}
+#pdfZoomOut:pressed
+{
+background:rgba(0,0,0,110);
+}
+
+
+#pdfFirst {
+color: rgba(255,255,255,180);
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-left:1px solid rgba(176,196,222,50);
+border-right:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfFirst:hover
+{
+background:rgba(176,196,222,100);
+}
+#pdfFirst:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfBack {
+color: rgba(255,255,255,180);
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-right:1px solid rgba(176,196,222,50);
+border-left:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+min-width: 40px;
+}
+#pdfBack:hover
+{
+background:rgba(176,196,222,100);
+}
+#pdfBack:pressed
+{
+background:rgba(0,0,0,110);
+}
+
+QSpinBox 
+{
+min-height:25;
+background:transparent;
+border:0px solid rgba(255,255,255,60);
+border-radius:2px;
+color: rgb(255,255,255,160);
+alignment: center;
+margin-left: 15px;
+margin-right: 7px;
+}
+QSpinBox:hover
+{
+color: rgb(255,255,255,255);
+}
+
+#pdfNext {
+color: rgba(255,255,255,180);
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-left:1px solid rgba(176,196,222,50);
+border-right:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+min-width: 40px;
+}
+#pdfNext:hover
+{
+background:rgba(176,196,222,100);
+}
+#pdfNext:pressed
+{
+background:rgba(0,0,0,110);
+}
+#pdfLast {
+color: rgba(255,255,255,180);
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-right:1px solid rgba(176,196,222,50);
+border-left:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+}
+#pdfLast:hover
+{
+background:rgba(176,196,222,100);
+}
+#pdfLast:pressed
+{
+background:rgba(0,0,0,110);
+}
+
+#main_widget
+{
+background-image: url(/opt/extras.ubuntu.com/glbs/styles/images/modern.png);
+}
+#Bar 
+{
+background: transparent;
+}
+#toolBar
+{
+padding:6px;
+background-image: url(/opt/extras.ubuntu.com/glbs/styles/images/modern.png);
+spacing: 0px;
+}
+#toolBar_pdf
+{
+background-image: url(/opt/extras.ubuntu.com/glbs/styles/images/modern.png);
+}
+
+#BackButton {
+color: rgba(255,255,255,180);
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-left:1px solid rgba(176,196,222,50);
+border-right:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 2px;
+margin-left: 5px;
+min-width:150px;
+}
+#BackButton:hover {
+color: rgba(255,255,255,210);
+border:1px solid rgba(176,196,222,80);
+background:rgba(176,196,222,100);
+}
+#BackButton:disabled {
+color: rgba(255,255,255,30);
+border-top:1px solid rgba(176,196,222,10);
+border-bottom:1px solid rgba(176,196,222,10);
+border-left:1px solid rgba(176,196,222,10);
+border-right:0px;
+background:rgba(176,196,222,10);
+}
+#BackButton:pressed {
+background:rgba(0,0,0,130);
+}
+#BackToThisCatalogButton {
+color: rgba(255,255,255,180);
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top:1px solid rgba(176,196,222,50);
+border-bottom:1px solid rgba(176,196,222,50);
+border-right:1px solid rgba(176,196,222,50);
+border-left:0px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 5px;
+min-width:150px;
+}
+#BackToThisCatalogButton:hover {
+color: rgba(255,255,255,210);
+border:1px solid rgba(176,196,222,80);
+background:rgba(176,196,222,100);
+}
+#BackToThisCatalogButton:disabled {
+color: rgba(255,255,255,30);
+border-top:1px solid rgba(176,196,222,10);
+border-bottom:1px solid rgba(176,196,222,10);
+border-right:1px solid rgba(176,196,222,10);
+border-left:0px;
+background:rgba(176,196,222,10);
+}
+#BackToThisCatalogButton:pressed {
+background:rgba(0,0,0,130);
+}
+#FavoritePushButton{
+color: rgba(255,255,255,180);
+border:1px rgba(176,196,222,50);
+border-radius: 2px;
+height:20;
+background:rgba(176,196,222,50);
+padding-left: 12px;
+padding-right: 12px;
+spacing: 5px;
+min-width:120px;
+margin-right: 5px;
+}
+#FavoritePushButton:hover {
+color: rgba(255,255,255,210);
+border:1px solid rgba(176,196,222,80);
+background:rgba(176,196,222,100);
+}
+#FavoritePushButton:disabled {
+color: rgba(255,255,255,30);
+border:1px solid rgba(176,196,222,10);
+background:rgba(176,196,222,10);
+}
+#FavoritePushButton:pressed {
+background:rgba(0,0,0,130);
+}
+
+
+
+#progress_widget
+{
+background:transparent;
+height:20px;
+}
+
+QProgressBar 
+{
+background:transparent;
+border: 1px solid rgba(0,0,0,80);
+border-radius: 3px;
+height:10px;
+}
+QProgressBar::chunk 
+{
+background: rgba(0,0,0,80);
+width: 20px;
+}
+#LabelPath
+{
+background: transparent;
+color: rgba(255,255,255,120);
+}
+#scrollArea{background: transparent;}
+#scrollAreaWidgetContents{background: rgba(255,255,255,60);}
+
+#CatalogWidget {
+margin-top:20px;
+background-image: url('/opt/extras.ubuntu.com/glbs/styles/images/empty_wire_shelf.png');
+background-repeat: repeat-xy;
+}
+#CatalogWidget::item {
+color: white;
+border: 1px solid qlineargradient(spread:pad, x1:0.499, y1:0, x2:0.501, y2:1, stop:0 rgba(176, 196, 222, 140), stop:1 rgba(255, 255, 255, 0));
+/*rgba(176,196,222,100);*/
+border-top-color: rgba(176, 196, 222, 140);
+border-bottom: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
+padding-top: 20px;
+padding-left: 14px;
+padding-right: 14px;
+padding-bottom: 4px;
+background: qlineargradient(spread:pad, x1:0.499, y1:0, x2:0.501, y2:1, stop:0 rgba(176, 196, 222, 100), stop:1 rgba(255, 255, 255, 0));
+}
+#CatalogWidget::item:hover {
+border: 1px solid rgba(176,196,222,160);
+background: rgba(176,196,222,100);
+}
+#CatalogWidget::item:selected {
+border: 1px solid rgba(176,196,222,220);
+background-color: rgba(176,196,222, 170);
+}
+
+QScrollBar:vertical { 
+background:transparent;
+width:14px;
+margin: 20px 0px 20px 0px;
+}
+QScrollBar::handle:vertical {
+border: 1px solid rgba(255,255,255,50);
+border-radius:7px;
+background: rgba(0,0,0,80);/*qlineargradient(spread:reflect, x1:0.501, y1:0, x2:1, y2:0, stop:0.322638 rgba(255, 153, 51, 80), stop:1 rgba(255, 255, 255, 50));*/
+height:50px;
+}
+QScrollBar::add-line:vertical {
+border: 1px solid rgba(255,255,255,50);
+background: rgba(0,0,0,80);
+border-radius:7px;
+height: 12px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+border: 1px solid rgba(255,255,255,50);
+background: rgba(0,0,0,80);
+border-radius:7px;
+height: 12px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+QScrollBar:horizontal { 
+background:transparent;
+height:20px;
+margin: 3px 20px 3px 20px;
+}
+QScrollBar::handle:horizontal {
+border: 1px solid rgba(255,255,255,50);
+border-radius:7px;
+background: rgba(0,0,0,80);
+min-width:20px;
+}
+QScrollBar::add-line:horizontal {
+border: 1px solid rgba(255,255,255,50);
+background: rgba(0,0,0,80);
+border-radius:7px;
+width: 12px;
+height:12px;
+subcontrol-position: right;
+subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+border: 1px solid rgba(255,255,255,50);
+background: rgba(0,0,0,80);
+border-radius:7px;
+width: 12px;
+height:12px;
+subcontrol-position: left;
+subcontrol-origin: margin;
+}

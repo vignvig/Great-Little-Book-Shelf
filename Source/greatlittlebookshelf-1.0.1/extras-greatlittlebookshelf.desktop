@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Great Little Book Shelf
+Comment=Simple book catalog software
+Exec=/opt/extras.ubuntu.com/glbs/greatlittlebookshelf
+Terminal=false
+Version=1.0.0
+Type=Application
+StartupNotify=true
+Icon=/usr/share/icons/glbs.svg
+Categories=Office;
+Name[en_US]=Great Little Book Shelf
+GenericName[en]=Great Little Book Shelf
+GenericName[hr]=Sjajna mala polica knjiga
+GenericName[sr]=Сјајна мала полица књига
+Comment[en]=Simple book catalog software
+Comment[hr]=Jednostavan katalog publikacija
+Comment[sr]=Једноставан каталог публикација

@@ -1,0 +1,41 @@
+# PKGBUILD Author: Vig Dev <vignvig@gmail.com>
+# GreatLittleBookShelf Author: Dejan Petrovic
+
+pkgname=greatlittlebookshelf
+pkgver=1.0
+pkgrel=1
+pkgdesc="A simple pdf book shelf from ChaletOS Distro"
+arch=('x86_64')
+url="https://sourceforge.net/projects/greatlittlebookshelf/files/source/"
+license=('GPL3')
+depends=()
+makedepends=()
+optdepends=()
+source=(https://github.com/vignvig/Great-Little-Book-Shelf/tree/master/Archive/$pkgname-$pkgver.$pkgrel.tar.gz)
+
+
+build() {
+cd "$srcdir/"
+
+#autoreconf -i
+#touch missing file
+#autoreconf -i
+
+#./configure --prefix=/usr
+make PREFIX=/usr sysconfdir=/etc localstatedir=/var
+}
+
+
+check() {
+	cd "$srcdir/"
+	make -k check
+}
+
+package() {
+    cd "$srcdir/"
+    make DESTDIR="$pkgdir/" install
+}
+
+
+
+

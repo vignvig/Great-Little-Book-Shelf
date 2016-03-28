@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>IMG/empty.png</file>
+        <file>IMG/back.png</file>
+        <file>IMG/glebc_icon32.png</file>
+        <file>IMG/glebc_icon48.png</file>
+        <file>IMG/glebc_icon72.png</file>
+        <file>IMG/glebc_icon96.png</file>
+        <file>IMG/glebc_icon128.png</file>
+        <file>IMG/selection_mode.png</file>
+        <file>IMG/options.png</file>
+        <file>IMG/empty_rotated.png</file>
+        <file>IMG/epub.png</file>
+        <file>IMG/pdf.png</file>
+        <file>IMG/empty_logo.png</file>
+        <file>IMG/glrp96.png</file>
+        <file>IMG/favorite.png</file>
+    </qresource>
+</RCC>
