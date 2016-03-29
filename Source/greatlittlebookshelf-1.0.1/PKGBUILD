@@ -15,8 +15,8 @@ source=(https://github.com/vignvig/Great-Little-Book-Shelf/tree/master/Archive/$
 
 
 build() {
-cd "$srcdir/"
-
+cd ${srcdir}/${pkgname}-${pkgver}
+./compile.sh
 #autoreconf -i
 #touch missing file
 #autoreconf -i
@@ -27,12 +27,14 @@ make PREFIX=/usr sysconfdir=/etc localstatedir=/var
 
 
 check() {
-	cd "$srcdir/"
+	  cd ${srcdir}/${pkgname}-${pkgver}
+
 	make -k check
 }
 
 package() {
-    cd "$srcdir/"
+     cd ${srcdir}/${pkgname}-${pkgver}
+
     make DESTDIR="$pkgdir/" install
 }
 
